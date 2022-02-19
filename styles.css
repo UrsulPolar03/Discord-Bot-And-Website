@@ -1,0 +1,102 @@
+
+.background{
+	display:block;
+	background: url(https://i.pinimg.com/originals/95/ef/b8/95efb8425d270933e5e890b33ab5ef70.gif) no-repeat center fixed;
+	background-size: cover;
+	
+}
+
+h1{
+	color:#1b1c55;
+	font-weight: normal;
+	font-size: 100px;
+  font-style: normal;
+	font-family: KindlyRewind;
+	-webkit-text-stroke: 2px #883acf;
+	
+}
+
+h1:hover{
+  color: white;
+}
+
+p{
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+.hidden:hover::before{
+  content:"Discord bot";
+  color:white;
+}
+
+.box{
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  background-color: none;
+  align: center;
+}
+
+.istoricul{
+  margin: auto;
+  width: 25%;
+  height: 25%;
+  background-color: none;
+  align: center;
+}
+
+.panou{
+	margin: auto;
+	width: 500px;
+	height: 600px;
+	background-color: black;
+	background: rgba(0,0,0,0.4);
+  padding:1px;
+}
+
+.navbar{
+	margin: -8px;
+	background-color: #9000ff;
+	height: 40px;
+}
+
+.titlu{
+  display:inline;
+	margin: 0px;
+	font-size: 30px;
+	color:white;
+}
+
+body::-webkit-scrollbar{
+	display:none;
+}
+
+.comenzi, .istoric{
+	margin: 3;
+	display: inline;
+	background-color: #9000ff;
+	color:white;
+	padding: 7px;
+}
+
+.comenzi:hover, .istoric:hover{
+	background-color:#6800b8;
+}
+
+.navb{
+	text-decoration:none;
+	color:white;
+	font-weight: bold;
+}
+
+.info{
+	font-weight: bold;
+	color: white;
+	background: #9000ff;
+	margin: 0px auto;
+	padding: 7px;
+	width: max-content;
+}

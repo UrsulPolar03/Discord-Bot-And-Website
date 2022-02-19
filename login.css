@@ -1,0 +1,13 @@
+.background{
+	background: url("https://media.giphy.com/media/J3BlD4W2r1mcK1vMWW/giphy.gif") no-repeat center fixed;
+	background-size: cover;
+}
+
+.box{
+	background-color: black;
+	margin: 400px;
+	margin-right: 600px;
+	margin-left: 600px;
+	padding: 50px;
+	opacity: 40%;
+}

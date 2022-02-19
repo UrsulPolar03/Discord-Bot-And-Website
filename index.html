@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html class="background">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Spirit Box</title>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+
+<header>
+
+	<div class="navbar" align=center>
+	  
+    <div class="istoric" align=center><a class="navb" href="https://spirit-box.ursulpolar03.repl.co/">Istoric</a></div>
+	  <div class="titlu" align=center> Spirit Box </div>
+	  <div class="comenzi" align=center><a class="navb">Comenzi</div></a>
+
+	</div>
+
+</header>
+
+<body>
+
+	<div class="istoricul">
+	<h1 align=center> ISTORIC </h1>
+  </div>
+  <div class="info" align=center> Logat ca: {{name}}#{{idu}}</div>
+  <div class="panou">
+	{% for x in content %}
+	<p align=center>{{x}}</p>
+	{% endfor %}
+  </div>
+
+</body>
+
+<footer>
+
+  <div class="box" align=center>
+  <p class="hidden" align=center> Spirit Box</p>
+  </div>  
+
+</footer>
+
+</html>
